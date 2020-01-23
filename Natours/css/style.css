@@ -74,7 +74,7 @@ body {
     font-size: 20px;
     letter-spacing: 17.4px;
     font-weight: 700;
-    animation-name: moveInRight 1s ease-out;
+    animation: moveInRight 1s ease-out;
 }
 
 @keyframes moveInLeft {
