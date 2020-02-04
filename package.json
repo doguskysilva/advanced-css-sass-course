@@ -6,9 +6,11 @@
   "author": "Douglas Silva <dogusky.silva@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "compile:natours": "node-sass -w Natours/sass/main.scss Natours/css/style.css"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.13.1"
   }
 }
