@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "lite-server",
-    "compile:natours": "node-sass -w Natours/sass/main.scss Natours/css/style.css"
+    "watch:natours": "node-sass -w Natours/sass/main.scss Natours/css/style.css",
+    "compile:natours": "node-sass Natours/sass/main.scss Natours/css/style.css"
   },
   "devDependencies": {
     "lite-server": "^2.5.4",
