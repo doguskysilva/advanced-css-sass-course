@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "lite-server",
     "watch:natours": "node-sass -w Natours/sass/main.scss Natours/css/style.css",
-    "compile:natours": "node-sass Natours/sass/main.scss Natours/css/style.css"
+    "compile:natours": "node-sass Natours/sass/main.scss Natours/css/style.css",
+    "watch:trillo": "node-sass -w Trillo/sass/main.scss Trillo/css/main.css",
+    "compile:trillo": "node-sass Trillo/sass/main.scss Trillo/css/main.css"
   },
   "devDependencies": {
     "lite-server": "^2.5.4",
